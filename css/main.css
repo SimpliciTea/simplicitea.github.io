@@ -416,6 +416,11 @@ the JS/jQ Etchasketch section
 		width: 95%;
 		margin: auto;
 	}
+
+	#header-wrap {
+		width: 95%;
+		margin: auto;
+	}
 }
 
 @media (max-width: 600px) {
