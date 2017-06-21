@@ -1,0 +1,62 @@
+body {
+  font-family: "Montserrat", "sans-serif";
+  color: #111; }
+
+h1 {
+  font-family: "Montserrat", serif;
+  color: white;
+  font-size: 60px; }
+
+h2 {
+  color: white;
+  margin-top: 0px;
+  border-bottom: 1px dashed #f71e0c;
+  font-size: 28px; }
+
+h3 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 0px;
+  padding-right: 10px;
+  margin-bottom: 10px; }
+
+section {
+  font-size: 14px; }
+
+em {
+  font-weight: 800; }
+
+a {
+  color: #f71e0c; }
+  a.project-link {
+    color: white; }
+    a.project-link h3 {
+      position: relative;
+      margin-left: 43px; }
+    a.project-link--github h3::before {
+      display: block;
+      content: '';
+      position: absolute;
+      left: -43px;
+      top: 3px;
+      width: 35px;
+      height: 35px;
+      background-image: url("/images/GitHub-Mark-Light-32px.png");
+      background-size: cover; }
+    a.project-link--web h3::before {
+      display: block;
+      content: '';
+      position: absolute;
+      left: -43px;
+      top: 3px;
+      width: 35px;
+      height: 35px;
+      background-image: url("/images/Globe_icon-white.svg");
+      background-size: cover; }
+
+.project-category {
+  color: white;
+  font-size: 16px; }
+
+a:hover {
+  color: red; }
