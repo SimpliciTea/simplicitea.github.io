@@ -174,15 +174,23 @@ section {
       display: inline-block;
       position: relative;
       bottom: -1px; }
+      @media (max-width: 500px) {
+        section#about .project-category, section#work .project-category {
+          display: block;
+          margin-left: 42px; } }
     section#about .project-tools, section#work .project-tools {
       display: flex;
       list-style-type: none;
       margin: 3px 0px;
       padding: 0px 0px 0px 44px; }
+      @media (max-width: 500px) {
+        section#about .project-tools, section#work .project-tools {
+          flex-direction: column; } }
       section#about .project-tools li, section#work .project-tools li {
         padding: 0px 10px;
         position: relative;
         text-transform: uppercase;
+        text-align: center;
         font-size: 10px; }
         section#about .project-tools li:first-child, section#work .project-tools li:first-child {
           padding-left: 0px; }
