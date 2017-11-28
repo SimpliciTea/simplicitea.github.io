@@ -87,6 +87,7 @@ header {
     width: 100%;
     position: absolute;
     bottom: -20px;
+    left: 0px;
     border-bottom-left-radius: 200%;
     border-bottom-right-radius: 200%;
     border-bottom: 30px solid #ff8c00; }
