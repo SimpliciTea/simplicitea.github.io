@@ -78,7 +78,6 @@ require('./rainbow.js');
 
       // when below header, disappear
       if (currY > header.clientHeight - this.wrapper.clientHeight) {
-        console.log('hit');
         if (!this.wrapper.classList.contains('nav-mobile--anchored')) {
           this.wrapper.classList.add('nav-mobile--anchored');
         }
