@@ -8,20 +8,23 @@ h1 {
   font-size: 60px; }
 
 h2 {
-  color: white;
+  color: #ff8832;
   margin-top: 0px;
   border-bottom: 1px dashed #f71e0c;
   font-size: 28px; }
 
 h3 {
-  color: white;
+  color: #ff8832;
   font-size: 20px;
   padding-bottom: 0px;
   padding-right: 10px;
   margin-bottom: 10px; }
 
+#work h3 {
+  color: white; }
+
 section {
-  font-size: 14px; }
+  font-size: 16px; }
 
 em {
   font-size: 1.5em;
@@ -31,7 +34,7 @@ em {
 a {
   color: #f71e0c; }
   a.project-link {
-    color: white; }
+    color: #f71e0c; }
     a.project-link h3 {
       position: relative;
       margin-left: 43px; }
@@ -61,4 +64,4 @@ a {
   font-size: 16px; }
 
 a:hover {
-  color: red; }
+  color: #f94c3d; }

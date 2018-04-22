@@ -10,6 +10,31 @@
     <title>John Ley Portfolio | Seattle JavaScript Developer</title>
   </head>
   <body>
+    <div class="nav-mobile">
+      <button class="menu-toggle">
+        <span class="menu-burger">toggle menu</span>  
+      </button>
+
+      <nav class="menu-mobile">
+        <div id="menu-mobile-backdrop"></div>
+        
+        <ul class="menu-items">
+          <li class="menu-item">
+            <a href="resume-2017.pdf" target="_blank">Resume</a>
+          </li>
+          <li class="menu-item">
+            <a class="scroll-to" href="#about" target="_blank">About</a>
+          </li>
+          <li class="menu-item">
+            <a class="scroll-to" href="#work" target="_blank">Selected Work</a>
+          </li>
+          <li class="menu-item">
+            <a class="scroll-to" href="#contact" target="_blank">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    
     <header>
       <div class="header_copy">
         <h1>John Ley</h1>
@@ -37,104 +62,109 @@
 
 
     <section id="about">
-      <h2>About</h2>
-      
-      <h3>The Short</h3>
-      <p>I want to build a useful and expressive modern web app beside a talented team to learn and grow with. I'd love to talk with you about your project and your team!</p>
-      
-      <h3>The Long</h3>
-      <p>Hello, World!</p>
-      <p>My name is John. I am a Seattle-based JavaScript developer who is looking for work! I've got a handful of freelance projects, a couple of internships and some years of independent study under my belt, and am looking for my next great opportunity.</p>
-      <p>JavaScript is my baby at this point. I'm fairly well versed in modern ES6 JS and the React ecosystem. I also pack a reasonably firm grip on WordPress, a functional and growing capability with APIs, databases and cloud services (particularly AWS offerings like EC2, S3 and Lambda), and some exposure through my internship at WinDocks with C# and native Windows development.</p>
-      <p>Please take a moment to thumb through my projects and their associated repositories. I believe you will find well-documented, thoughtful code demonstrating an aptitude for development and a hunger for continuous improvement. I hope to get in touch for a conversation about your project needs and what I can bring to the table as your next new hire.</p>
-      <p>Best,</p>
-      <em>John Ley</em>
+      <!-- <h2>About</h2> -->
+      <div class="section-content">
+        
+        <h3>The Short</h3>
+        <p>I want to build a useful and expressive modern web app beside a talented team to learn and grow with. I'd love to talk with you about your project and your team!</p>
+        
+        <h3>The Long</h3>
+        <p>Hello, World!</p>
+        <p>My name is John. I am a Seattle-based JavaScript developer who is looking for work! I've got a handful of freelance projects, a couple of internships and some years of independent study under my belt, and am looking for my next great opportunity.</p>
+        <p>JavaScript is my baby at this point. I'm well versed in modern ES6 JS and the React ecosystem. I also pack a firm grip on WordPress, a functional and growing capability with APIs, databases and cloud services (particularly AWS offerings like EC2, S3 and Lambda), and exposure through my internship at WinDocks with C# and native Windows development.</p>
+        <p>Please take a moment to thumb through my projects and their associated repositories. You will find well-documented, thoughtful code demonstrating an aptitude for development and a hunger for continuous improvement. I hope to get in touch for a conversation about your project needs and what I can bring to the table as your next new hire.</p>
+      </div>
     </section>
 
     <section id="work">
-      <h2>Selected Work</h2>
-
-      <article id="kanban">
-        <a class="project-link project-link--web" target="_blank" href="http://kanban-client.s3-website.us-west-2.amazonaws.com/">
-          <h3>Kanban!</h3>
-        </a>
+      <!-- <h2>Selected Work</h2> -->
+      
+      <div class="section-content">
         
-        <span class="project-category">Pet Project</span>
-        <ul class="project-tools">
-          <li>React</li>
-          <li>Redux</li>
-          <li>RethinkDB</li>
-          <li>Express</li>
-          <li>AWS s3/ec2</li>
-        </ul>
-      </article>
+        <article id="kanban">
+          <a class="project-link project-link--web" target="_blank" href="http://kanban-client.s3-website.us-west-2.amazonaws.com/">
+            <h3>Kanban!</h3>
+          </a>
+          
+          <span class="project-category">Pet Project</span>
+          <ul class="project-tools">
+            <li>React</li>
+            <li>Redux</li>
+            <li>RethinkDB</li>
+            <li>Express</li>
+            <li>AWS s3/ec2</li>
+          </ul>
+        </article>
 
-      <article id="recipio">
-        <a class="project-link project-link--github" target="_blank" href="https://github.com/SimpliciTea/recipio">
-          <h3>Recipio</h3>
-        </a>
-        
-        <span class="project-category">Pet Project</span>
-        <ul class="project-tools">
-          <li>React</li>
-          <li>Redux</li>
-          <li>immutable.js</li>
-          <li>Mocha/Chai</li>
-          <li>Webpack/Babel</li>
-          <li>ES6</li>
-        </ul>
-      </article>
+        <article id="recipio">
+          <a class="project-link project-link--github" target="_blank" href="https://github.com/SimpliciTea/recipio">
+            <h3>Recipio</h3>
+          </a>
+          
+          <span class="project-category">Pet Project</span>
+          <ul class="project-tools">
+            <li>React</li>
+            <li>Redux</li>
+            <li>immutable.js</li>
+            <li>Mocha/Chai</li>
+            <li>Webpack/Babel</li>
+            <li>ES6</li>
+          </ul>
+        </article>
 
-      <article id="Seam Carving">
-        <a class="project-link project-link--web" target="_blank" href="https://simplicitea.github.io/seam-carving">
-          <h3>Seam Carving</h3>
-        </a>
+        <article id="Seam Carving">
+          <a class="project-link project-link--web" target="_blank" href="https://simplicitea.github.io/seam-carving">
+            <h3>Seam Carving</h3>
+          </a>
 
-        <span class="project-category">Pet Project</span>
-        <ul class="project-tools">
-          <li>React</li>
-          <li>HTML5 Canvas API</li>
-          <li>JavaScript Typed Arrays</li>
-        </ul>
-      </article>
+          <span class="project-category">Pet Project</span>
+          <ul class="project-tools">
+            <li>React</li>
+            <li>HTML5 Canvas API</li>
+            <li>JavaScript Typed Arrays</li>
+          </ul>
+        </article>
 
-      <article id="pph">
-        <a class="project-link project-link--web" target="_blank" href="https://www.prettypotheads.com/">
-          <h3>PrettyPotHeads.com</h3>
-        </a>
+        <article id="pph">
+          <a class="project-link project-link--web" target="_blank" href="https://www.prettypotheads.com/">
+            <h3>PrettyPotHeads.com</h3>
+          </a>
 
-        <span class="project-category">Freelance E-Commerce</span>
-        <ul class="project-tools">
-          <li>WordPress</li>
-          <li>WooCommerce</li>
-          <li>From-Scratch Responsive Theme Development</li>
-        </ul>
-      </article>
+          <span class="project-category">Freelance E-Commerce</span>
+          <ul class="project-tools">
+            <li>WordPress</li>
+            <li>WooCommerce</li>
+            <li>From-Scratch Responsive Theme Development</li>
+          </ul>
+        </article>
 
-      <article id="windocks">
-        <a class="project-link project-link--web" target="_blank" href="http://www.windocks.com">
-          <h3>WinDocks</h3>
-        </a>
+        <article id="windocks">
+          <a class="project-link project-link--web" target="_blank" href="http://www.windocks.com">
+            <h3>WinDocks</h3>
+          </a>
 
-        <span class="project-category">Internship</span>
-        <ul class="project-tools">
-          <li>go -> c++ -> C#</li>
-          <li>Containers</li>
-          <li>Windows Server 2008/2012</li>
-          <li>PowerShell</li>
-          <li>AWS EC2</li>
-        </ul>
-      </article>
+          <span class="project-category">Internship</span>
+          <ul class="project-tools">
+            <li>go -> c++ -> C#</li>
+            <li>Containers</li>
+            <li>Windows Server 2008/2012</li>
+            <li>PowerShell</li>
+            <li>AWS EC2</li>
+          </ul>
+        </article>
+      </div>
     </section>
 
 
     <section id="contact">
-      <a href="mailto:ley.johnt@gmail.com">
-        <h3>inbox</h3>
-      </a>
-      <a href="https://github.com/simplicitea/">
-        <h3>github</h3>
-      </a>
+      <div class="section-content">
+        <a href="mailto:ley.johnt@gmail.com">
+          <h3>inbox</h3>
+        </a>
+        <a href="https://github.com/simplicitea/">
+          <h3>github</h3>
+        </a>
+      </div>
     </section>
 
 
